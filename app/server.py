@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1LP9o67O8Pnknsbof06wyi2HNzTjB5J35'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1LP9o67O8Pnknsbof06wyi2HNzTjB5J35?alt=media&key=AIzaSyDAbfmkchQUIVfYcJWFIog4oFSHjhWwvNI'
 export_file_name = 'train_resnet_50_Malaria.pkl'
 
 classes = ['Parasitized', 'Uninfected']
